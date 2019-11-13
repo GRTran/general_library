@@ -7,6 +7,7 @@ LD=gfortran
 OBJS=			    			VarPrecision.o																					\
 										BlaspackInterface/BlaspackInterface.o										\
 										gauss_quadrature.o																			\
+										HermiteNISP.o																						\
 										gauss_quadrature_test.o
 
 #Set up the MODS so it contains the same as OBJS but with the .o replaced by .mod

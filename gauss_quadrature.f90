@@ -100,7 +100,7 @@ contains
     elseif ( coeff == 3 ) then
       three_term_weight = 2._wp*(step-1._wp)
     elseif ( coeff == 4 ) then
-      three_term_weight = pi
+      three_term_weight = sqrt(pi)
     endif
   end function
 
